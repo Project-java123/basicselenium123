@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-06T20:59:31 IST" name="BasicSuite" finished-at="2025-04-06T20:59:31 IST" duration-ms="215">
+    <groups>
+      <group name="Smoke">
+        <method signature="GroupTest.testCase22()[pri:0, instance:basicTestNG.GroupTest@662ac478]" name="testCase22" class="basicTestNG.GroupTest"/>
+        <method signature="GroupTest.testCase21()[pri:2, instance:basicTestNG.GroupTest@662ac478]" name="testCase21" class="basicTestNG.GroupTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-04-06T20:59:31 IST" name="first test" finished-at="2025-04-06T20:59:31 IST" duration-ms="215">
+      <class name="basicTestNG.GroupTest">
+        <test-method signature="testCase22()[pri:0, instance:basicTestNG.GroupTest@662ac478]" started-at="2025-04-06T20:59:31 IST" name="testCase22" finished-at="2025-04-06T20:59:31 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase22 -->
+        <test-method signature="testCase21()[pri:2, instance:basicTestNG.GroupTest@662ac478]" started-at="2025-04-06T20:59:31 IST" name="testCase21" finished-at="2025-04-06T20:59:31 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase21 -->
+      </class> <!-- basicTestNG.GroupTest -->
+    </test> <!-- first test -->
+  </suite> <!-- BasicSuite -->
+</testng-results>

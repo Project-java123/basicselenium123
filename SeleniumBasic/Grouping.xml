@@ -1,0 +1,13 @@
+<suite name="BasicSuite">
+	<test name="first test">
+		<groups>
+			<run>
+				 <include name="Smoke"></include>
+				 <!-- <exclude name="Smoke"></exclude>-->
+			</run>
+		</groups>
+		<classes>
+			<class name="basicTestNG.GroupTest"></class>
+		</classes>
+	</test>
+</suite>

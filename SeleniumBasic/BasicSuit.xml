@@ -1,0 +1,13 @@
+<suite name="BasicSuite">
+	<test name="first test">
+		<classes>
+			<class name="basicTestNG.BasicAnnotation"></class>
+			<class name="basicTestNG.AllAnnotationTest"></class>
+		</classes>
+	</test>
+	<test name="second test">
+		<classes>
+			<class name="basicTestNG.DataProviderTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,10 @@
+<suite name="BasicSuite">
+	<test name="first test">
+		<parameter name="Data" value="ashy"></parameter>
+		<parameter name="Data1" value="heera"></parameter>
+		<classes>
+			<class name="basicTestNG.ParameterTest"></class>
+			<class name="basicTestNG.GroupTest"></class> 
+		</classes>
+	</test>
+</suite>
