@@ -18,9 +18,9 @@ public class AlertHandling {
 		System.out.println(alertText);
 		driver.switchTo().alert().accept();
 		
-	/*	WebElement ClickmeButton2=driver.findElement(By.xpath("//button[@class='btn btn-warning']"));
+	/*WebElement ClickmeButton2=driver.findElement(By.xpath("//button[@class='btn btn-warning']"));
 		ClickmeButton2.click();
-		driver.switchTo().alert().dismiss();			*/
+		driver.switchTo().alert().dismiss();	*/		
 	}
 }
 //https://www.tutorialspoint.com/selenium/practice/alerts.php  Assignment
